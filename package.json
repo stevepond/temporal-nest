@@ -1,0 +1,21 @@
+{
+  "name": "temporal-nest",
+  "version": "1.0.0",
+  "description": "Sample Nest project using Temporal",
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.0.0",
+    "temporalio": "^1.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
